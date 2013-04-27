@@ -58,5 +58,18 @@
 
             Count++;
         }
+
+        public void RemoveHead()
+        {
+            if (Count > 0)
+            {
+                Head = Head.Next;
+                Count--;
+                if (Count == 0)
+                {
+                     Tail = null;
+                }
+            }
+        }
     }
 }
