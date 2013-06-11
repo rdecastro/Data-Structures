@@ -50,17 +50,24 @@ namespace DataStructures
             Count++;
         }
 
-        public void RemoveFromHead()
+        public Node<T> RemoveFromHead()
         {
+            Node<T> returnValue = null; 
+
             if (Head != null)
             {
+                returnValue = Head;
                 Head = Head.Next;
                 Count--;
             }
+
+            return returnValue;
         }
 
-        public void RemoveFromTail()
+        public Node<T> RemoveFromTail()
         {
+            Node<T> returnValue = null; 
+
             Node<T> previousNode = null;
             Node<T> currentNode = Head;
             while (currentNode != Tail)
@@ -70,10 +77,12 @@ namespace DataStructures
             }
             if (previousNode != null)
             {
+                returnValue = Tail;
                 Tail = previousNode;
                 Tail.Next = null;
                 Count--;
             }
+            return returnValue;
         }
 
     }
