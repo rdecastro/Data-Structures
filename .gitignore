@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/DataStructures/bin/Debug/DataStructures.dll
+/DataStructures.Tests/bin/Debug
+/DataStructures.Tests/obj/Debug
+/DataStructures/obj/Debug
+/DataStructures/bin/Debug
