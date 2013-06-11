@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{569BC2ED-5E25-4C7D-BC57-53A163DEC9EF}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
+		DataStructures.msbuild = DataStructures.msbuild
 	EndProjectSection
 EndProject
 Global
