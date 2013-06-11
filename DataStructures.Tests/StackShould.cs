@@ -27,5 +27,15 @@ namespace DataStructures.Tests
             Assert.AreEqual("B", stack.Pop());
             Assert.AreEqual("A", stack.Pop());
         }
+
+        [TestMethod]
+        public void Have_An_Item_Count()
+        {
+            Stack<string> stack = new Stack<string>();
+            stack.Push("A");
+            stack.Push("B");
+            stack.Push("C");
+            Assert.AreEqual(3, stack.Count);
+        }
     }
 }

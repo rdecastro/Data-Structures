@@ -33,5 +33,13 @@ namespace DataStructures.Tests
 
             return returnValue;
         }
+
+        public int Count
+        {
+            get
+            {
+                return list.Count;
+            }
+        }
     }
 }
